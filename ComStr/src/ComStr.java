@@ -3,7 +3,8 @@
  */
 public class ComStr {
 public static void main(String[] args) {
-    for(String a: args) System.out.println(a);
+    for(String a: args) System.out.print(a+" ");
+    System.out.println();
     System.out.println("Всего аргументов: "+args.length);
 
 }
