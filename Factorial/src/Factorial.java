@@ -8,4 +8,11 @@ public class Factorial {
         result = fact(i-1) * i;
         return result;
     }
+    int fact1(int n) {
+        int result=1;
+        for(int i=1; i<=n; i++){
+            result *= i;
+        }
+        return result;
+    }
 }
